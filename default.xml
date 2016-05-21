@@ -35,7 +35,7 @@
   <project path="packages/apps/Contacts" remote="paranoiagu" name="paranoiagu/android_packages_apps_Contacts" groups="pdk-fs" /> 
   <project path="frameworks/av" name="paranoiagu/android_frameworks_av" groups="pdk" remote="paranoiagu" />
   <project path="frameworks/base" remote="paranoiagu" name="paranoiagu/android_frameworks_base_cm" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telecomm" name="paranoiagu/android_packages_services_Telecomm" remote="paranoiagu" revision="marshmallow" />
+  <project path="packages/services/Telecomm" name="paranoiagu/android_packages_services_Telecomm" remote="paranoiagu" />
   <project path="packages/apps/Settings" remote="paranoiagu" name="paranoiagu/android_packages_apps_Settings" groups="pdk-fs" />
   <project path="vendor/cm" remote="paranoiagu" name="paranoiagu/android_vendor_cm" />
 <!-- END paranoiagu -->
