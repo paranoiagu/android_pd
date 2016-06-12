@@ -27,17 +27,18 @@
            sync-j="4" />
 
 <!-- BEGIN paranoiagu -->
-  <project path="build" name="paranoiagu/android_build_cm" remote="paranoiagu" groups="pdk" >
+  <project path="build" name="paranoiagu/android_build_pd" remote="paranoiagu" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" remote="paranoiagu" name="paranoiagu/android" />
+  <project path="frameworks/av" name="paranoiagu/android_frameworks_av_pd" groups="pdk" remote="paranoiagu" />
+  <project path="frameworks/base" remote="paranoiagu" name="paranoiagu/android_frameworks_base_pd" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Settings" remote="paranoiagu" name="paranoiagu/android_packages_apps_Settings_pd" groups="pdk-fs" />
+  <project path="vendor/cm" remote="paranoiagu" name="paranoiagu/android_vendor_pd" />
+
   <project path="packages/apps/Dialer" remote="paranoiagu" name="paranoiagu/android_packages_apps_Dialer" groups="pdk-fs" />
   <project path="packages/apps/Contacts" remote="paranoiagu" name="paranoiagu/android_packages_apps_Contacts" groups="pdk-fs" />
-  <project path="frameworks/av" name="paranoiagu/android_frameworks_av" groups="pdk" remote="paranoiagu" />
-  <project path="frameworks/base" remote="paranoiagu" name="paranoiagu/android_frameworks_base_cm" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telecomm" name="paranoiagu/android_packages_services_Telecomm" remote="paranoiagu" />
-  <project path="packages/apps/Settings" remote="paranoiagu" name="paranoiagu/android_packages_apps_Settings" groups="pdk-fs" />
-  <project path="vendor/cm" remote="paranoiagu" name="paranoiagu/android_vendor_cm" />
 <!-- END paranoiagu -->
 
 <!-- BEGIN SUDAMOD -->
