@@ -38,16 +38,16 @@
 
   <project path="packages/apps/Dialer" remote="paranoiagu" name="paranoiagu/android_packages_apps_Dialer" groups="pdk-fs" />
   <project path="packages/apps/Contacts" remote="paranoiagu" name="paranoiagu/android_packages_apps_Contacts" groups="pdk-fs" />
+  <project path="packages/apps/Messaging" remote="paranoiagu" revision="sm-2.0" name="paranoiagu/android_packages_apps_Messaging" groups="pdk-fs" />
   <project path="packages/services/Telecomm" name="paranoiagu/android_packages_services_Telecomm" remote="paranoiagu" />
+  <project path="external/sepolicy" remote="paranoiagu" name="paranoiagu/android_external_sepolicy" groups="pdk" />
 <!-- END paranoiagu -->
 
 <!-- BEGIN SUDAMOD -->
   <project path="packages/apps/InCallUI" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_InCallUI" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Messaging" groups="pdk-fs" />
   <project path="packages/providers/PhoneLocationProvider" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_provider_PhoneLocationProvider" />
   <project path="external/suda/SudaSDKs" remote="suda" revision="sm-2.0" name="SudaMod/android_external_suda_SudaSDKs" />
   <project path="packages/apps/Calendar" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Calendar" groups="pdk-fs" />
-  <project path="external/sepolicy" remote="suda" name="SudaMod/android_external_sepolicy" groups="pdk" />
 <!-- END SUDAMOD -->
 
 <!-- BEGIN CYANOGENMOD -->
