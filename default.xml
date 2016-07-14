@@ -35,8 +35,8 @@
   <project path="frameworks/base" remote="paranoiagu" name="paranoiagu/android_frameworks_base_pd" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Settings" remote="paranoiagu" name="paranoiagu/android_packages_apps_Settings_pd" groups="pdk-fs" />
   <project path="vendor/cm" remote="paranoiagu" name="paranoiagu/android_vendor_pd" />
-  <project path="packages/apps/Calendar" remote="paranoiagu" name="SudaMod/android_packages_apps_Calendar" groups="pdk-fs" />
-  <project path="packages/apps/InCallUI" remote="paranoiagu" name="SudaMod/android_packages_apps_InCallUI" groups="pdk-fs" />
+  <project path="packages/apps/Calendar" remote="paranoiagu" name="paranoiagu/android_packages_apps_Calendar" groups="pdk-fs" />
+  <project path="packages/apps/InCallUI" remote="paranoiagu" name="paranoiagu/android_packages_apps_InCallUI" groups="pdk-fs" />
   <project path="packages/apps/Dialer" remote="paranoiagu" name="paranoiagu/android_packages_apps_Dialer" groups="pdk-fs" />
   <project path="packages/apps/Contacts" remote="paranoiagu" name="paranoiagu/android_packages_apps_Contacts" groups="pdk-fs" />
   <project path="packages/apps/Messaging" remote="paranoiagu" revision="sm-2.0" name="paranoiagu/android_packages_apps_Messaging" groups="pdk-fs" />
